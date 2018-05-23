@@ -10,7 +10,6 @@ a {
 }
 h2 {
   font-size: 3em;
-  text-align: right;
 }
 /* Navigation */
 .nav {
@@ -51,13 +50,15 @@ li:hover {
 .home-page {
   height: 100vh;
   background: white;
-  
 }
 .home-top-container {
   padding-top: 130px;
   width: 100vw;
   vertical-align: top;
   text-align: center;
+}
+.home-top-container h2 {
+  text-align: right;
 }
 .home-top-left {
   display: inline-block;
@@ -80,6 +81,7 @@ li:hover {
 .home-top-right ul {
   width: 300px;
   border: 1px solid black;
+  border-radius: 2px;
   padding: 10px 0px 10px 15px;
   margin: 30px 0 0 50px;
   vertical-align: top;
@@ -121,4 +123,22 @@ li:hover {
 }
 .CV:hover {
   background: #1678c2;
+}
+/* Education */
+.education-container {
+  padding-top: 110px;
+  width: 600px;
+  max-width: 80vw;
+  margin: 0 auto 0 auto;
+}
+.education-container h2, .education-explanation {
+  margin-bottom: 20px;
+}
+.education-container h4 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.education-container li {
+  margin-left: 40px;
+  list-style-type: square;
 }

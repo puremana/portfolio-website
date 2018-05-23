@@ -48,7 +48,7 @@ class Home extends Component {
                     <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.
                     If you are interested in hiring me, or just want to tell me about a movie I should watch, feel free to <Link to="/contact">drop me a line</Link>.</p>
                     <div className="home-bottom-buttons">
-                        <a href="https://github.com/puremana" target="_blank">
+                        <a href="https://github.com/puremana" target="_blank" rel="noreferrer noopener">
                             <div className="button github">
                                 <span className="icon is-small"><i className="fa fa-github"></i></span>
                                 Github
