@@ -14,7 +14,7 @@ class Projects extends Component {
 
   render() {
     return (
-        <div class="projects-page">
+        <div className="projects-page">
             <NavBar page="projects"/>
             
         </div>

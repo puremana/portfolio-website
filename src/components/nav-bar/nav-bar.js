@@ -38,32 +38,32 @@ class NavBar extends Component {
 
   render() {
     return (
-        <div class="nav">
+        <div className="nav">
             <ul>
-                <li class={this.state.homeLink}>
-                    <Link to="/">
-                        <span class="icon is-small"><i class="fa fa-home"></i></span>
+                <Link to="/">
+                    <li className={this.state.homeLink}>
+                        <span className="icon is-small"><i className="fa fa-home"></i></span>
                         <span>Home</span>
-                    </Link>
-                </li>
-                <li class={this.state.eduLink}>
-                    <Link to="/education">
-                        <span class="icon is-small"><i class="fa fa-home"></i></span>
+                    </li>
+                </Link>
+                <Link to="/education">
+                    <li className={this.state.eduLink}>
+                        <span className="icon is-small"><i className="fa fa-graduation-cap"></i></span>
                         <span>Education</span>
-                    </Link>
-                </li>
-                <li class={this.state.projectLink}>
-                    <Link to="/projects">
-                        <span class="icon is-small"><i class="fa fa-laptop"></i></span>
+                    </li>
+                </Link>
+                <Link to="/projects">
+                    <li className={this.state.projectLink}>
+                        <span className="icon is-small"><i className="fa fa-laptop"></i></span>
                         <span>Projects</span>
-                    </Link>
-                </li>
-                <li class={this.state.contactLink}>
-                <Link to="/contact">
-                        <span class="icon is-small"><i class="fa fa-phone"></i></span>
+                    </li>
+                </Link>
+                <Link to="/contact">    
+                    <li className={"nav-last " + this.state.contactLink}>
+                        <span className="icon is-small"><i className="fa fa-phone"></i></span>
                         <span>Contact</span>
-                    </Link>
-                </li>
+                    </li>
+                </Link>
             </ul>
         </div>
     );

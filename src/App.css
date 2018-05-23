@@ -1,0 +1,45 @@
+/* Global */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  color: rgb(0, 110, 255);
+  text-decoration: inherit;
+}
+/* Navigation */
+.nav {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+  position: fixed;
+}
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  width: 22vw;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  margin: 15px 1vw 15px 1vw;
+  border-radius: 2px;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.205);
+}
+body .nav .nav-last {
+  
+}
+li:hover {
+  background-color: rgba(0, 178, 248, 0.075);
+}
+.icon {
+  margin-right: 0.5vw;
+}
+.is-active {
+  font-weight: 600;
+  color: rgb(0, 81, 187);
+}

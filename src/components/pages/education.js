@@ -17,7 +17,7 @@ class Education extends Component {
 
   render() {
     return (
-        <div class="education-page">
+        <div className="education-page">
             <NavBar page="education"/>
             
         </div>
