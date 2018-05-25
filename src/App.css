@@ -8,6 +8,9 @@ a {
   color: rgb(0, 110, 255);
   text-decoration: inherit;
 }
+a:hover {
+  color: rgb(56, 56, 56);
+}
 h2 {
   font-size: 3em;
 }
@@ -32,9 +35,6 @@ h2 {
   border-radius: 2px;
   text-align: center;
   border: 1px solid rgba(128, 128, 128, 0.205);
-}
-body .nav .nav-last {
-  
 }
 li:hover {
   color: black;
@@ -141,4 +141,99 @@ li:hover {
 .education-container li {
   margin-left: 40px;
   list-style-type: square;
+}
+/* Projects */
+.projects-container {
+  padding-top: 110px;
+  width: 600px;
+  max-width: 80vw;
+  margin: 0 auto 0 auto;
+}
+.project {
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin: 20px 0 20px 0;
+}
+.project h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.project-image {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+.project-image img {
+  width: 100%;
+  border-radius: 2px;
+}
+.project-text p {
+  margin-bottom: 10px;
+}
+.project-tags {
+  margin-bottom: 10px;
+}
+.tag {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.tag-html {
+  border-color: #E54D26;
+  color: #E54D26;
+}
+.tag-css {
+  border-color: #0070BA;
+  color: #0070BA;
+}
+.tag-bootstrap {
+  border-color: #824ECF;
+  color: #824ECF;
+}
+.tag-js {
+  border-color: #F5E01F;
+  color: #F5E01F;
+}
+.tag-reactjs {
+  border-color: #61DAFB;
+  color: #61DAFB;
+}
+.tag-nodejs {
+  border-color: #90C53F;
+  color: #90C53F;
+}
+.tag-winforms {
+  border-color: grey;
+  color: grey;
+}
+.tag-csharp {
+  border-color: #7A3396;
+  color: #7A3396;
+}
+.tag-sharppcap {
+  border-color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
+}
+.tag-semanticui {
+  border-color: #35BDB2;
+  color: #35BDB2;
+}
+.tag-electron {
+  border-color: #437C86;
+  color: #437C86;
+}
+.tag-discordjs {
+  border-color: #8C9EFF;
+  color: #8C9EFF;
+}
+.tag-json {
+  border-color: black;
+  color: black;
+}
+.tag-mysql {
+  border-color: #00618A;
+  color: #00618A;
 }
