@@ -20,7 +20,7 @@ class Projects extends Component {
                 <h2>Projects</h2>
                 <div className="project">
                     <div className="project-image">
-                        <img src="img/iourpg-website.jpg" />
+                        <img src="img/iourpg-website.jpg" alt="IOURPG Website Screenshot"/>
                     </div>
                     <div className="project-text">
                         <h3>Idle Online Universe Game Portal <a href="https://iourpg.com/website-production/index.html" target="_blank" rel="noreferrer noopener"><span class="fa fa-link"></span></a></h3>
@@ -37,7 +37,7 @@ class Projects extends Component {
                 </div>
                 <div className="project">
                     <div className="project-image">
-                        <img src="img/iou-helper.jpg" />
+                        <img src="img/iou-helper.jpg" alt="IOU Helper Screenshot"/>
                     </div>
                     <div className="project-text">
                         <h3>IOU Helper / IOU Helper Pro <a href="http://iouhelper.com/" target="_blank" rel="noreferrer noopener"><i class="fas fa-link"></i></a> <a href="https://github.com/puremana/iou-helper" target="_blank" rel="noreferrer noopener"><span class="fab fa-github"></span></a> <a href="https://discord.gg/JhybKW3" target="_blank" rel="noreferrer noopener"><span class="fab fa-discord"></span></a></h3>
@@ -54,7 +54,7 @@ class Projects extends Component {
                 </div>
                 <div className="project">
                     <div className="project-image">
-                        <img src="img/iou-helper-2.jpg" />
+                        <img src="img/iou-helper-2.jpg" alt="IOU Helper 2.0 Screenshot" />
                     </div>
                     <div className="project-text">
                         <h3>IOU Helper 2.0 <a href="http://iouhelper.com/" target="_blank" rel="noreferrer noopener"><i class="fas fa-link"></i></a> <a href="https://github.com/puremana/iou-helper" target="_blank" rel="noreferrer noopener"><span class="fab fa-github"></span></a> <a href="https://discord.gg/JhybKW3" target="_blank" rel="noreferrer noopener"><span class="fab fa-discord"></span></a></h3>
@@ -73,7 +73,7 @@ class Projects extends Component {
                 </div>
                 <div className="project">
                     <div className="project-image">
-                        <img src="img/iou-bot.jpg" />
+                        <img src="img/iou-bot.jpg" alt="IOU Discord Bot Screenshot" />
                     </div>
                     <div className="project-text">
                         <h3>IOU Bot <a href="https://github.com/puremana/iou-bot" target="_blank" rel="noreferrer noopener"><span class="fab fa-github"></span></a> <a href="https://discord.gg/zynuQcP" target="_blank" rel="noreferrer noopener"><span class="fab fa-discord"></span></a></h3>
@@ -88,7 +88,7 @@ class Projects extends Component {
                 </div>
                 <div className="project">
                     <div className="project-image">
-                        <img src="img/new-zealand-police-logo.jpg" />
+                        <img src="img/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
                     </div>
                     <div className="project-text">
                         <h3>Waikato Police Notification System</h3>

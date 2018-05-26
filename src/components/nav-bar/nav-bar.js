@@ -46,16 +46,16 @@ class NavBar extends Component {
                         <span>Home</span>
                     </li>
                 </Link>
-                <Link to="/education">
-                    <li className={this.state.eduLink}>
-                        <span className="icon is-small"><i className="fa fa-graduation-cap"></i></span>
-                        <span>Education</span>
-                    </li>
-                </Link>
                 <Link to="/projects">
                     <li className={this.state.projectLink}>
                         <span className="icon is-small"><i className="fa fa-laptop"></i></span>
                         <span>Projects</span>
+                    </li>
+                </Link>
+                <Link to="/education">
+                    <li className={this.state.eduLink}>
+                        <span className="icon is-small"><i className="fa fa-graduation-cap"></i></span>
+                        <span>Education</span>
                     </li>
                 </Link>
                 <Link to="/contact">    

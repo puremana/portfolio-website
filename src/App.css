@@ -62,8 +62,8 @@ li:hover {
 }
 .home-top-left {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 .home-top-left-image {
   border: 1px solid black;
@@ -80,10 +80,10 @@ li:hover {
 }
 .home-top-right ul {
   width: 300px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   border-radius: 2px;
   padding: 10px 0px 10px 15px;
-  margin: 30px 0 0 50px;
+  margin: 30px 0 0 35px;
   vertical-align: top;
   text-align: left;
 }
