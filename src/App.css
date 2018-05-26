@@ -237,3 +237,27 @@ li:hover {
   border-color: #00618A;
   color: #00618A;
 }
+/* Contact */
+.contact-container {
+  padding-top: 110px;
+  width: 600px;
+  max-width: 80vw;
+  margin: 0 auto 0 auto;
+}
+.contact-form {
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  border-radius: 2px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.contact-form input, .contact-form textarea {
+  width: 95%;
+  margin: 5px 0 10px;
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+.send {
+  background: rgb(33, 133, 208);
+  margin: 0px 0px 10px 0px;
+}
