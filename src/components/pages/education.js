@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
-import {
-    Link
-  } from 'react-router-dom';
 
 class Education extends Component {
     componentWillReceiveProps() {
@@ -26,7 +23,7 @@ class Education extends Component {
                 <h4>400 level</h4>
                 <ul>
                     <li>
-                    <a href="https://www.waikato.ac.nz/study/papers/comp442-web-search-technical-and-social-issues" target="_blank" rel="noreferrer noopener">COMP442 – Web Search: Technical and Social Issues</a>
+                        <a href="https://www.waikato.ac.nz/study/papers/comp442-web-search-technical-and-social-issues" target="_blank" rel="noreferrer noopener">COMP442 – Web Search: Technical and Social Issues</a>
                     </li>
                 </ul>
                 <h4>300 level</h4>

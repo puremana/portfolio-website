@@ -54,10 +54,12 @@ class Home extends Component {
                                 Github
                             </div>
                         </a>
-                        <div className="button CV">
-                            <span className="icon is-small"><i className="fa fa-arrow-circle-down"></i></span>
-                            Download CV
-                        </div>
+                        <a href="Jeremy Shaw CV.pdf" target="_blank" rel="noreferrer noopener">
+                            <div className="button CV">
+                                <span className="icon is-small"><i className="fa fa-arrow-circle-down"></i></span>
+                                Download CV
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

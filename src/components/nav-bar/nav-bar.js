@@ -43,25 +43,25 @@ class NavBar extends Component {
                 <Link to="/">
                     <li className={this.state.homeLink}>
                         <span className="icon is-small"><i className="fa fa-home"></i></span>
-                        <span>Home</span>
+                        <span className="nav-text">Home</span>
                     </li>
                 </Link>
                 <Link to="/projects">
                     <li className={this.state.projectLink}>
                         <span className="icon is-small"><i className="fa fa-laptop"></i></span>
-                        <span>Projects</span>
+                        <span className="nav-text">Projects</span>
                     </li>
                 </Link>
                 <Link to="/education">
                     <li className={this.state.eduLink}>
                         <span className="icon is-small"><i className="fa fa-graduation-cap"></i></span>
-                        <span>Education</span>
+                        <span className="nav-text">Education</span>
                     </li>
                 </Link>
                 <Link to="/contact">    
                     <li className={"nav-last " + this.state.contactLink}>
                         <span className="icon is-small"><i className="fa fa-phone"></i></span>
-                        <span>Contact</span>
+                        <span className="nav-text">Contact</span>
                     </li>
                 </Link>
             </ul>

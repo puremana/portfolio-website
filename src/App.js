@@ -13,6 +13,7 @@ import Contact from './components/pages/contact';
 
 //includes
 import './App.css';
+import './Media.css';
 
 class App extends Component {
   render() {
