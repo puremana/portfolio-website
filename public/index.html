@@ -10,6 +10,16 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     
+    <!-- Email Service EmailJS -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      function sendEmail(name, email, message) {
+        alert("Message sent.");
+        emailjs.init("user_zw1NRenhx6WKqRR1JvNDu");
+        emailjs.send("gmail","jeremy_shaw_portfolio",{name: name, email: email, message: message});
+      }
+    </script>
+
     <title>Jeremy Shaw Portfolio</title>
   </head>
   <body>

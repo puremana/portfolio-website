@@ -260,4 +260,8 @@ li:hover {
 .send {
   background: rgb(33, 133, 208);
   margin: 0px 0px 10px 0px;
+  cursor: pointer;
+}
+.contact-container .contact-form .invalid {
+  border: 1px solid red;
 }
