@@ -100,7 +100,7 @@ li:hover {
 .home-bottom-text {
   width: 600px;
   max-width: 80vw;
-  margin: 40px auto 0 auto;
+  margin: 40px auto 20px auto;
 }
 
 .button {
@@ -129,7 +129,7 @@ li:hover {
   padding-top: 110px;
   width: 600px;
   max-width: 80vw;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 20px auto;
 }
 .education-container h2, .education-explanation {
   margin-bottom: 20px;
@@ -171,14 +171,14 @@ li:hover {
   margin-bottom: 10px;
 }
 .project-tags {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .tag {
   border-radius: 5px;
   padding: 5px 10px;
   font-size: 0.8em;
   display: inline-block;
-  margin-right: 10px;
+  margin: 0px 10px 5px 0px;
   border: 1px solid black;
 }
 .tag-html {
@@ -247,7 +247,7 @@ li:hover {
 .contact-form {
   border: 1px solid rgba(128, 128, 128, 0.205);
   border-radius: 2px;
-  margin-top: 20px;
+  margin: 20px 0 40px;
   padding: 10px 20px;
 }
 .contact-form input, .contact-form textarea {

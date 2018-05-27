@@ -20,6 +20,24 @@ class Projects extends Component {
                 <h2>Projects</h2>
                 <div className="project">
                     <div className="project-image">
+                        <img src="img/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
+                    </div>
+                    <div className="project-text">
+                        <h3>Waikato Police Notification System</h3>
+                        <p>A group of students from Waikato University were asked to develop a notification system between cameras and the Waikato Police.</p>
+                        <p>My role in this project was mainly creating the UI for the police to interact with the various program settings and database information.</p>
+                        <p>Please contact me for references for this work, as it is closed source.</p>
+                    </div>
+                    <div className="project-tags">
+                        <div className="tag tag-html">HTML5</div>
+                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-js">JS</div>
+                        <div className="tag tag-nodejs">Node JS</div>
+                        <div className="tag tag-mysql">MySQL</div>
+                    </div>
+                </div>
+                <div className="project">
+                    <div className="project-image">
                         <img src="img/iourpg-website.jpg" alt="IOURPG Website Screenshot"/>
                     </div>
                     <div className="project-text">
@@ -84,24 +102,6 @@ class Projects extends Component {
                         <div className="tag tag-nodejs">Node JS</div>
                         <div className="tag tag-discordjs">Discord JS</div>
                         <div className="tag tag-json">JSON</div>
-                    </div>
-                </div>
-                <div className="project">
-                    <div className="project-image">
-                        <img src="img/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
-                    </div>
-                    <div className="project-text">
-                        <h3>Waikato Police Notification System</h3>
-                        <p>A group of students from Waikato University were asked to develop a notification system between cameras and the Waikato Police.</p>
-                        <p>My role in this project was mainly creating the UI for the police to interact with the various program settings and database information.</p>
-                        <p>Please contact me for references for this work, as it is closed source.</p>
-                    </div>
-                    <div className="project-tags">
-                        <div className="tag tag-html">HTML5</div>
-                        <div className="tag tag-css">CSS</div>
-                        <div className="tag tag-js">JS</div>
-                        <div className="tag tag-nodejs">Node JS</div>
-                        <div className="tag tag-mysql">MySQL</div>
                     </div>
                 </div>
             </div>

@@ -42,8 +42,8 @@ class Home extends Component {
             </div>
             <div className="home-bottom">
                 <div className="home-bottom-text">
-                    <p>I'm Jeremy. A computer science student intent on developing the sweetest <Link to="/projects">projects</Link> I can. 
-                    Currently studying at Waikato with one semester left. Interested in developing webapps and fullstack development.</p>
+                    <p>I'm Jeremy. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can. 
+                    Currently waiting to graduate at Waikato University with a BSc, majoring in Computer Science. Interested in developing webapps and fullstack development.</p>
                     <br />
                     <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.
                     If you are interested in hiring me, or just want to tell me about a movie I should watch, feel free to <Link to="/contact">drop me a line</Link>.</p>

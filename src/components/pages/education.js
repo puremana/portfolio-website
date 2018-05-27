@@ -18,7 +18,7 @@ class Education extends Component {
             <NavBar page="education"/>
             <div className="education-container">
                 <h2>Education</h2>
-                <p className="education-explanation">Graduated from Waikato University with a Bacholar of Science, majoring in Computer Science. My relevant university courses are shown below.</p>
+                <p className="education-explanation">Graduating from Waikato University with a Bachelor of Science, majoring in Computer Science. My relevant university courses are shown below.</p>
                 
                 <h4>400 level</h4>
                 <ul>
@@ -45,6 +45,9 @@ class Education extends Component {
                 <ul>
                     <li>
                         <a href="https://www.waikato.ac.nz/study/papers/compx252-interactive-computing" target="_blank" rel="noreferrer noopener">COMPX252 – Interactive Computing</a>
+                    </li>
+                    <li>
+                        <a href="https://www.waikato.ac.nz/study/papers/dsign241-design-3-aspects-of-web-design" target="_blank" rel="noreferrer noopener">DSIGN241 - Design 3: Aspects of Web Design</a>
                     </li>
                     <li>
                         <a href="https://papers.waikato.ac.nz/2017/COMP/COMP235" target="_blank" rel="noreferrer noopener">COMP235 – Logic and Computation</a>
