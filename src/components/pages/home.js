@@ -32,7 +32,7 @@ class Home extends Component {
                         </li>
                         <li>
                             <div className="icon is-small"><i className="fa fa-location-arrow"></i></div>
-                            <span>Hamilton, New Zealand</span></li>
+                            <span>Rotorua, New Zealand</span></li>
                         <li>
                             <div className="icon is-small"><i className="fa fa-graduation-cap"></i></div>
                             <span>BSc, Major in Computer Science</span>
