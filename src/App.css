@@ -237,6 +237,10 @@ li:hover {
   border-color: #00618A;
   color: #00618A;
 }
+.tag-php {
+  border-color: #777BB3;
+  color: #777BB3;
+}
 /* Contact */
 .contact-container {
   padding-top: 110px;

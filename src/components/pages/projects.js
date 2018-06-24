@@ -55,6 +55,23 @@ class Projects extends Component {
                 </div>
                 <div className="project">
                     <div className="project-image">
+                        <img src="img/wedding-website.jpg" alt="Wedding Website Screenshot"/>
+                    </div>
+                    <div className="project-text">
+                        <h3>Olly & Monique's Wedding Website <a href="https://ollyandmon.co.nz" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/puremana/Wedding-Website" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a></h3>
+                        <p>A from scratch website for my brother and his fiancée for their upcoming wedding. RSVP and Admin Dashboard pages both contain large MySQL functionality such as auto-generated content and a login.</p>
+                        <p>All source aside from the MySQL database information, as well as screenshots of the pages can be found the on Github.</p>
+                    </div>
+                    <div className="project-tags">
+                        <div className="tag tag-html">HTML5</div>
+                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-js">JS</div>
+                        <div className="tag tag-php">PHP</div>
+                        <div className="tag tag-mysql">MySQL</div>
+                    </div>
+                </div>
+                <div className="project">
+                    <div className="project-image">
                         <img src="img/iou-helper.jpg" alt="IOU Helper Screenshot"/>
                     </div>
                     <div className="project-text">
