@@ -124,6 +124,13 @@ li:hover {
 .CV:hover {
   background: #1678c2;
 }
+.blog {
+  background: rgb(100, 13, 240);
+  width: 60px;
+}
+.blog:hover {
+  background: rgb(77, 11, 182);
+}
 /* Education */
 .education-container {
   padding-top: 110px;
