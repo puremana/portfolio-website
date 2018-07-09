@@ -31,7 +31,7 @@ h2 {
   height: 50px;
   line-height: 50px;
   vertical-align: middle;
-  margin: 15px 1vw 15px 1vw;
+  margin: 15px 0.4vw 15px 0.4vw;
   border-radius: 2px;
   text-align: center;
   border: 1px solid rgba(128, 128, 128, 0.205);
@@ -267,6 +267,9 @@ li:hover {
   border: 1px solid rgba(128, 128, 128, 0.205);
   border-radius: 2px;
   padding: 5px 10px;
+}
+#messageInput {
+  resize: vertical;
 }
 .send {
   background: rgb(33, 133, 208);
