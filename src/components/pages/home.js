@@ -28,11 +28,11 @@ class Home extends Component {
                     <ul>
                         <li>
                             <div className="icon is-small"><i className="fa fa-user"></i></div>
-                            <span>Fullstack Developer</span>
+                            <span>PHP Developer</span>
                         </li>
                         <li>
                             <div className="icon is-small"><i className="fa fa-location-arrow"></i></div>
-                            <span>Rotorua, New Zealand</span></li>
+                            <span>Matamata, New Zealand</span></li>
                         <li>
                             <div className="icon is-small"><i className="fa fa-graduation-cap"></i></div>
                             <span>BSc, Major in Computer Science</span>
@@ -43,10 +43,10 @@ class Home extends Component {
             <div className="home-bottom">
                 <div className="home-bottom-text">
                     <p>I'm Jeremy. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can. 
-                    Currently waiting to graduate at Waikato University with a BSc, majoring in Computer Science. Interested in developing webapps and fullstack development.</p>
+                    Currently working at <a href="https://luminateone.co.nz/">Luminate One</a> as a PHP Developer.</p>
                     <br />
                     <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.
-                    If you are interested in hiring me, or just want to tell me about a movie I should watch, feel free to <Link to="/contact">drop me a line</Link>.</p>
+                    If you are interested in getting in touch with me, feel free to <Link to="/contact">drop me a line</Link>.</p>
                     <div className="home-bottom-buttons">
                         <a href="https://github.com/puremana" target="_blank" rel="noreferrer noopener">
                             <div className="button github">
