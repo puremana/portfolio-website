@@ -121,6 +121,24 @@ class Projects extends Component {
                         <div className="tag tag-json">JSON</div>
                     </div>
                 </div>
+                <div className="project">
+                    <div className="project-image">
+                        <img src="img/random-food-picker.jpg" alt="Random Food Picker Screenshot" />
+                    </div>
+                    <div className="project-text">
+                        <h3>Random Food Picker <a href="https://randomfoodpicker.com" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/puremana/food-roulette" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a> </h3>
+                        <p>The Random Food Picker is a fun little web app I made to entice my coworkers to try different takeouts at lunch. You can read the full story on my <a href="https://blog.jeremyshaw.co.nz/2018/11/19/CORS-And-Hiding-Api-Keys/">blog post</a>. For this project I used Vue, Firebase Cloud Functions and the Yelp Fusion and Algolia Places API's.</p>
+                    </div>
+                    <div className="project-tags">
+                        <div className="tag tag-html">HTML5</div>
+                        <div className="tag tag-scss">SCSS</div>
+                        <div className="tag tag-js">JS</div>
+                        <div className="tag tag-vue">Vue</div>
+                        <div className="tag tag-firebase">Firebase Functions</div>
+                        <div className="tag tag-yelp">Yelp Fusion</div>
+                        <div className="tag tag-algolia-places">Algolia Places</div>
+                    </div>
+                </div>
             </div>
         </div>
     );

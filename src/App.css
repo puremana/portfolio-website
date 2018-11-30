@@ -248,6 +248,27 @@ li:hover {
   border-color: #777BB3;
   color: #777BB3;
 }
+.tag-scss {
+  border-color: #CF649A;
+  color: #CF649A;
+}
+.tag-vue {
+  border-color: #42B783;
+  color: #42B783;
+}
+.tag-firebase {
+  border-color: #FFCA2C;
+  color: #FFCA2C;
+}
+.tag-yelp {
+  border-color: #D32323;
+  color: #D32323;
+}
+.tag-algolia-places {
+  border-color: #3A5395;
+  color: #3A5395;
+}
+
 /* Contact */
 .contact-container {
   padding-top: 110px;
