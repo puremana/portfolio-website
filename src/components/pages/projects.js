@@ -114,6 +114,7 @@ class Projects extends Component {
                         <h3>IOU Bot <a href="https://github.com/puremana/iou-bot" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a> <a href="https://discord.gg/zynuQcP" target="_blank" rel="noreferrer noopener"><span className="fab fa-discord"></span></a></h3>
                         <p>IOU Bot is a Discord bot made for the official IOURPG game Discord server. This was my first time developing using the Discord JS API, which I found quite enjoyable.</p>
                         <p>The bots noteable features include adding custom commands, advertising parties and guilds by adding them to a locally stored database which is private messaged to interested members when requested, a voting system and a scheduler which pings members with the bingo role 10 minutes prior to the in-game bingo. This is to prevent players from forgetting to sign up for bingo.</p>
+                        <p>An extended version of this bot for IOU Guild Discord Servers can be found at <a href="https://github.com/puremana/me-bot" target="_blank" rel="noreferrer noopener">https://github.com/puremana/me-bot</a>.</p>
                     </div>
                     <div className="project-tags">
                         <div className="tag tag-nodejs">Node JS</div>
