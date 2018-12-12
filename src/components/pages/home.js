@@ -43,7 +43,7 @@ class Home extends Component {
             <div className="home-bottom">
                 <div className="home-bottom-text">
                     <p>I'm Jeremy. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can. 
-                    Currently working at <a href="https://luminateone.co.nz/">Luminate One</a> as a PHP Developer.</p>
+                    Currently working at <a href="https://luminateone.co.nz/">Luminateone</a> as a PHP Developer.</p>
                     <br />
                     <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.
                     If you are interested in getting in touch with me, feel free to <Link to="/contact">drop me a line</Link>.</p>
@@ -54,7 +54,7 @@ class Home extends Component {
                                 Github
                             </div>
                         </a>
-                        <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-website-a71ab.appspot.com/o/Jeremy%20Shaw%20CV.pdf?alt=media&token=6f6e0dea-0449-4322-869b-14a3a5c93073" target="_blank" rel="noreferrer noopener">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-website-a71ab.appspot.com/o/Jeremy%20Shaw%20CV.pdf?alt=media&token=55884ccc-350f-45f3-8cfe-8361e0fcee74" target="_blank" rel="noreferrer noopener">
                             <div className="button CV">
                                 <span className="icon is-small"><i className="fa fa-arrow-circle-down"></i></span>
                                 Download CV

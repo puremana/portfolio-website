@@ -18,7 +18,7 @@ class Education extends Component {
             <NavBar page="education"/>
             <div className="education-container">
                 <h2>Education</h2>
-                <p className="education-explanation">Graduating from Waikato University with a Bachelor of Science, majoring in Computer Science. My relevant university courses are shown below.</p>
+                <p className="education-explanation">Graduated from Waikato University with a Bachelor of Science, majoring in Computer Science. My relevant university courses are shown below.</p>
                 
                 <h4>400 level</h4>
                 <ul>
