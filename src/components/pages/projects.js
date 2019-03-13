@@ -19,9 +19,11 @@ class Projects extends Component {
             <div className="projects-container">
                 <h2>Projects</h2>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/new-zealand-police-logo.webp" type="image/webp" />
+                        <source srcSet="img/jpg/new-zealand-police-logo.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/new-zealand-police-logo.jpg" alt="New Zealand Police Logo" />
+                    </picture>
                     <div className="project-text">
                         <h3>Waikato Police Notification System</h3>
                         <p>A group of students from Waikato University were asked to develop a notification system between cameras and the Waikato Police.</p>
@@ -37,9 +39,11 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/iourpg-website.jpg" alt="IOURPG Website Screenshot"/>
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/iourpg-website.webp" type="image/webp" />
+                        <source srcSet="img/jpg/iourpg-website.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/iourpg-website.jpg" alt="IOURPG Website Screenshot"/>
+                    </picture>
                     <div className="project-text">
                         <h3>Idle Online Universe Game Portal <a href="https://iourpg.com/website-production/index.html" target="_blank" rel="noreferrer noopener"><span className="fa fa-link"></span></a></h3>
                         <p>IOURPG.com is a website I designed and developed to bring together all of the elements of the Idle Online Universe game while maintaining a simple and professional look.</p>
@@ -54,9 +58,11 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/wedding-website.jpg" alt="Wedding Website Screenshot"/>
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/wedding-website.webp" type="image/webp" />
+                        <source srcSet="img/jpg/wedding-website.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/wedding-website.jpg" alt="Wedding Website Screenshot"/>
+                    </picture>
                     <div className="project-text">
                         <h3>Olly & Monique's Wedding Website <a href="https://ollyandmon.co.nz" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/puremana/Wedding-Website" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a></h3>
                         <p>A from scratch website for my brother and his fiancée for their upcoming wedding. RSVP and Admin Dashboard pages both contain large MySQL functionality such as auto-generated content and a login.</p>
@@ -71,9 +77,11 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/iou-helper.jpg" alt="IOU Helper Screenshot"/>
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/iou-helper.webp" type="image/webp" />
+                        <source srcSet="img/jpg/iou-helper.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/iou-helper.jpg" alt="IOU Helper Screenshot"/>
+                    </picture>
                     <div className="project-text">
                         <h3>IOU Helper / IOU Helper Pro <a href="https://iouhelper.com/" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/puremana/iou-helper" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a> <a href="https://discord.gg/JhybKW3" target="_blank" rel="noreferrer noopener"><span className="fab fa-discord"></span></a></h3>
                         <p>IOU Helper is a wrapper for the popular online game IOURPG.</p>
@@ -88,9 +96,11 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/iou-helper-2.jpg" alt="IOU Helper 2.0 Screenshot" />
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/iou-helper-2.webp" type="image/webp" />
+                        <source srcSet="img/jpg/iou-helper-2.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/iou-helper-2.jpg" alt="IOU Helper 2.0 Screenshot" />
+                    </picture>
                     <div className="project-text">
                         <h3>IOU Helper 2.0 <a href="https://iouhelper.com/" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/puremana/iou-helper" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a> <a href="https://discord.gg/JhybKW3" target="_blank" rel="noreferrer noopener"><span className="fab fa-discord"></span></a></h3>
                         <p>While IOU Helper v1.0 allowed for low CPU and GPU usage while running multiple accounts, I wanted to create fast, responsive and attractive client for people who didn't worry about hardware usage. This is why I created IOU Helper 2.0.</p>
@@ -107,9 +117,11 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/iou-bot.jpg" alt="IOU Discord Bot Screenshot" />
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/iou-bot.webp" type="image/webp" />
+                        <source srcSet="img/jpg/iou-bot.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/iou-bot.jpg" alt="IOU Discord Bot Screenshot" />
+                    </picture>
                     <div className="project-text">
                         <h3>IOU Bot <a href="https://github.com/puremana/iou-bot" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a> <a href="https://discord.gg/zynuQcP" target="_blank" rel="noreferrer noopener"><span className="fab fa-discord"></span></a></h3>
                         <p>IOU Bot is a Discord bot made for the official IOURPG game Discord server. This was my first time developing using the Discord JS API, which I found quite enjoyable.</p>
@@ -123,9 +135,11 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <div className="project-image">
-                        <img src="img/random-food-picker.jpg" alt="Random Food Picker Screenshot" />
-                    </div>
+                    <picture className="project-image">
+                        <source srcSet="img/webp/random-food-picker.webp" type="image/webp" />
+                        <source srcSet="img/jpg/random-food-picker.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/random-food-picker.jpg" alt="Random Food Picker Screenshot" />
+                    </picture>
                     <div className="project-text">
                         <h3>Random Food Picker <a href="https://randomfoodpicker.com" target="_blank" rel="noreferrer noopener"><i className="fas fa-link"></i></a> <a href="https://github.com/puremana/food-roulette" target="_blank" rel="noreferrer noopener"><span className="fab fa-github"></span></a> </h3>
                         <p>The Random Food Picker is a fun little web app I made to entice my coworkers to try different takeouts at lunch. You can read the full story on my <a href="https://blog.jeremyshaw.co.nz/2018/11/19/CORS-And-Hiding-Api-Keys/">blog post</a>. For this project I used Vue, Firebase Cloud Functions and the Yelp Fusion and Algolia Places API's.</p>

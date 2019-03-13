@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
+  font-display: swap;
 }
 a {
   color: rgb(0, 110, 255);
