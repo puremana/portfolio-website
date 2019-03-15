@@ -21,7 +21,11 @@ class Home extends Component {
             <NavBar page="home"/>
             <div className="home-top-container">
                 <div className="home-top-left">
-                    <div className="home-top-left-image"></div>
+                    <picture className="home-top-left-image">
+                        <source srcSet="img/webp/profile.webp" type="image/webp" />
+                        <source srcSet="img/png/profile.png" type="image/jpeg" /> 
+                        <img src="img/png/profile.png" alt="Jeremy Shaw" />
+                    </picture>
                 </div>
                 <div className="home-top-right">
                     <h2>Jeremy Shaw</h2>
