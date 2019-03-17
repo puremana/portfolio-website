@@ -40,30 +40,30 @@ class NavBar extends Component {
     return (
         <div className="nav">
             <ul>
-                <Link to="/">
-                    <li className={this.state.homeLink}>
+                <li className={this.state.homeLink}>
+                    <Link to="/">
                         <span className="icon is-small"><i className="fa fa-home"></i></span>
                         <span className="nav-text">Home</span>
-                    </li>
-                </Link>
-                <Link to="/projects">
-                    <li className={this.state.projectLink}>
+                    </Link>
+                </li>
+                <li className={this.state.projectLink}>
+                    <Link to="/projects">
                         <span className="icon is-small"><i className="fa fa-laptop"></i></span>
                         <span className="nav-text">Projects</span>
-                    </li>
-                </Link>
-                <Link to="/education">
-                    <li className={this.state.eduLink}>
+                    </Link>
+                </li>
+                <li className={this.state.eduLink}>
+                    <Link to="/education">
                         <span className="icon is-small"><i className="fa fa-graduation-cap"></i></span>
                         <span className="nav-text">Education</span>
-                    </li>
-                </Link>
-                <Link to="/contact">    
-                    <li className={"nav-last " + this.state.contactLink}>
+                    </Link>
+                </li>
+                <li className={"nav-last " + this.state.contactLink}>
+                    <Link to="/contact">
                         <span className="icon is-small"><i className="fa fa-phone"></i></span>
                         <span className="nav-text">Contact</span>
-                    </li>
-                </Link>
+                    </Link>
+                </li>
             </ul>
         </div>
     );
