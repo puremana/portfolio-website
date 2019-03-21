@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "emailjs-com": "^2.3.2",
+    "lodash": ">=4.17.11",
+    "merge": ">=1.2.1",
     "react": "^16.6.3",
+    "react-dev-utils": ">=4.2.2",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.17",
     "url-parse": ">=1.4.3",
-    "merge": ">=1.2.1",
-    "react-dev-utils": ">=4.2.2",
-    "webpack-dev-server": ">=3.1.11",
-    "lodash": ">=4.17.11"
+    "webpack-dev-server": ">=3.1.11"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as emailjs from 'emailjs-com';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
@@ -54,8 +55,9 @@ class Contact extends Component {
             return;
         }
         
-        //send the email
-        window.sendEmail(this.state.nameValue, this.state.emailValue, this.state.messageValue);
+        emailjs.init("user_zw1NRenhx6WKqRR1JvNDu");
+        emailjs.send("gmail","jeremy_shaw_portfolio",{name: this.state.nameValue, email: this.state.emailValue, message: this.state.messageValue});
+        alert("Message sent.");
 
         //reset form
         this.setState({nameValue: ''});
