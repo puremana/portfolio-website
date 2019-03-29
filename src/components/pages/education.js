@@ -5,11 +5,11 @@ import NavBar from '../nav-bar/nav-bar';
 
 class Education extends Component {
     componentWillReceiveProps() {
-        document.title = "Education - Jeremy Shaw";
+        document.title = "Education - Jeremy Shaw Software Developer Portfolio";
     }
 
     componentDidMount() {
-        document.title = "Education - Jeremy Shaw";
+        document.title = "Education - Jeremy Shaw Software Developer Portfolio";
     }
 
   render() {

@@ -18,11 +18,11 @@ class Contact extends Component {
     }
 
     componentWillReceiveProps() {
-        document.title = "Contact - Jeremy Shaw";
+        document.title = "Contact - Jeremy Shaw Software Developer Portfolio";
     }
 
     componentDidMount() {
-        document.title = "Contact - Jeremy Shaw";
+        document.title = "Contact - Jeremy Shaw Software Developer Portfolio";
     }
 
     //Handling the inputs

@@ -5,11 +5,11 @@ import NavBar from '../nav-bar/nav-bar';
 
 class Projects extends Component {
     componentWillReceiveProps() {
-        document.title = "Projects - Jeremy Shaw";
+        document.title = "Projects - Jeremy Shaw Software Developer Portfolio";
     }
 
     componentDidMount() {
-        document.title = "Projects - Jeremy Shaw";
+        document.title = "Projects - Jeremy Shaw Software Developer Portfolio";
     }
 
   render() {

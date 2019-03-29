@@ -8,11 +8,11 @@ import {
 
 class Home extends Component {
     componentWillReceiveProps() {
-        document.title = "Home - Jeremy Shaw";
+        document.title = "Jeremy Shaw Software Developer Portfolio";
     }
 
     componentDidMount() {
-        document.title = "Home - Jeremy Shaw";
+        document.title = "Jeremy Shaw Software Developer Portfolio";
     }
 
   render() {
