@@ -182,7 +182,7 @@ li:hover {
 }
 .project h3 {
   font-size: 1.4em;
-  margin-bottom: 10px;
+  margin: 5px 0 10px;
 }
 .project-image {
   text-align: center;
@@ -191,9 +191,24 @@ li:hover {
 .project-image img {
   width: 100%;
   border-radius: 2px;
+  margin-top: 5px;
 }
 .project-text p {
   margin-bottom: 10px;
+}
+.project-button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0px 10px 5px 0px;
+  color: rgb(44, 44, 44);
+  font-size: 0.8em;
+  font-weight: 600;
+  background-color: rgb(235, 235, 235);
+}
+.project-button:hover {
+  background: #313131;
+  color: white;
 }
 .project-tags {
   margin-bottom: 5px;
