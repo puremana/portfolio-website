@@ -33,6 +33,12 @@ li a {
 h2 {
   font-size: 3em;
 }
+.bold {
+  font-weight: 600;
+}
+.italic {
+  font-style: italic;
+}
 /* Navigation */
 .nav {
   width: 100vw;
@@ -149,23 +155,58 @@ li:hover {
 .blog:hover {
   background: rgb(77, 11, 182);
 }
-/* Education */
-.education-container {
+/* Experience */
+.experience-container {
   padding-top: 110px;
   width: 600px;
   max-width: 80vw;
   margin: 0 auto 20px auto;
 }
-.education-container h2, .education-explanation {
+.experience-container h2, .experience-explanation {
   margin-bottom: 20px;
 }
-.education-container h4 {
+.experience-container h4 {
   margin-top: 10px;
   font-size: 1.2em;
 }
-.education-container li {
+.experience-container li {
   margin-left: 40px;
   list-style-type: square;
+}
+.experience-container .university-info {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(109, 109, 109);
+}
+.experience-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px auto;
+  grid-column-gap: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin: 20px 0 20px 0;
+}
+.logo-link {
+  display: grid;
+}
+.experience-block-logo {
+  width: 100%;
+  align-self: center;
+}
+.experience-block-info {
+  align-self: center;
+}
+.experience-block-info h3 {
+  margin-bottom: 5px;
+}
+.experience-block-text {
+  grid-column: 1 / 3;
+  margin-bottom: 20px;
+}
+.experience-block .project-tags {
+  grid-column: 1 / 3;
 }
 /* Projects */
 .projects-container {
@@ -300,6 +341,14 @@ li:hover {
 .tag-algolia-places {
   border-color: #3A5395;
   color: #3A5395;
+}
+.tag-laravel {
+  border-color: #E74430;
+  color: #E74430;
+}
+.tag-wordpress {
+  border-color: #1B749E;
+  color: #1B749E;
 }
 
 /* Contact */

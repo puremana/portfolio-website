@@ -8,22 +8,22 @@ import {
 class NavBar extends Component {
     constructor(props) {
         super(props);
-        this.state = {homeLink: '', eduLink: '', projectLink: '', contactLink: ''};
+        this.state = {homeLink: '', expLink: '', projectLink: '', contactLink: ''};
         this.updateActive = function(aPage) {
             if (aPage === "home") {
-                this.setState({homeLink: 'is-active', eduLink: '', projectLink: '', contactLink: ''});
+                this.setState({homeLink: 'is-active', expLink: '', projectLink: '', contactLink: ''});
             }
-            else if (aPage === "education") {
-                this.setState({homeLink: '', eduLink: 'is-active', projectLink: '', contactLink: ''});
+            else if (aPage === "experience") {
+                this.setState({homeLink: '', expLink: 'is-active', projectLink: '', contactLink: ''});
             }
             else if (aPage === "projects") {
-                this.setState({homeLink: '', eduLink: '', projectLink: 'is-active', contactLink: ''});
+                this.setState({homeLink: '', expLink: '', projectLink: 'is-active', contactLink: ''});
             }
             else if (aPage === "contact") {
-                this.setState({homeLink: '', eduLink: '', projectLink: '', contactLink: 'is-active'});
+                this.setState({homeLink: '', expLink: '', projectLink: '', contactLink: 'is-active'});
             }
             else {
-                this.setState({homeLink: '', eduLink: '', projectLink: '', contactLink: ''});
+                this.setState({homeLink: '', expLink: '', projectLink: '', contactLink: ''});
             }
         }
     }
@@ -52,10 +52,10 @@ class NavBar extends Component {
                         <span className="nav-text">Projects</span>
                     </Link>
                 </li>
-                <li className={this.state.eduLink}>
-                    <Link to="/education">
-                        <span className="icon is-small"><i className="fa fa-graduation-cap"></i></span>
-                        <span className="nav-text">Education</span>
+                <li className={this.state.expLink}>
+                    <Link to="/experience">
+                        <span className="icon is-small"><i className="fa fa-briefcase"></i></span>
+                        <span className="nav-text">Experience</span>
                     </Link>
                 </li>
                 <li className={"nav-last " + this.state.contactLink}>

@@ -7,7 +7,7 @@ import {
 
 //components
 import Home from './components/pages/home';
-import Education from './components/pages/education';
+import Experience from './components/pages/experience';
 import Projects from './components/pages/projects';
 import Contact from './components/pages/contact';
 
@@ -22,8 +22,8 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/education' component={Education} />
             <Route exact path='/projects' component={Projects} />
+            <Route exact path='/experience' component={Experience} />
             <Route exact path='/contact' component={Contact} />
             <Route component={Home} />
           </Switch>
