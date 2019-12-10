@@ -192,8 +192,10 @@ li:hover {
   display: grid;
 }
 .experience-block-logo {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   align-self: center;
+  object-fit: contain;
 }
 .experience-block-info {
   align-self: center;

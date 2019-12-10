@@ -10,4 +10,10 @@
     .nav-text {
         display: none;
     }
+    .experience-block .logo-link, .experience-block-info {
+        grid-column: 1/3;
+    }
+    .experience-block-info  {
+        margin-bottom: 10px;
+    }
 }
