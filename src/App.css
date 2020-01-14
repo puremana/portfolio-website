@@ -352,6 +352,14 @@ li:hover {
   border-color: #1B749E;
   color: #1B749E;
 }
+.tag-asgard {
+  border-color: #E89980;
+  color: #E89980;
+}
+.tag-react {
+  border-color: #61DAFB;
+  color: #61DAFB;
+}
 
 /* Contact */
 .contact-container {

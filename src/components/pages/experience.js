@@ -27,13 +27,18 @@ class Experience extends Component {
                         <h3>Full Stack Developer</h3>
                         <p className="italic">July 2019 - Present</p>
                     </div>
+                    <p className="experience-block-text">
+                        At NinetyBlack I create custom Wordpress sites with unique requirements, maintain internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and develop mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
+                    </p>
                     <div className="project-tags">
                         <div className="tag tag-html">HTML5</div>
-                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-scss">SCSS</div>
                         <div className="tag tag-js">JS</div>
                         <div className="tag tag-php">PHP</div>
-                        <div className="tag tag-laravel">Laravel</div>
                         <div className="tag tag-wordpress">Wordpress</div>
+                        <div className="tag tag-laravel">Laravel</div>
+                        <div className="tag tag-asgard">Asgard</div>
+                        <div className="tag tag-react">React Native</div>
                     </div>
                 </div>
 
@@ -54,8 +59,8 @@ class Experience extends Component {
                         <div className="tag tag-js">JS</div>
                         <div className="tag tag-vue">Vue</div>
                         <div className="tag tag-php">PHP</div>
-                        <div className="tag tag-laravel">Laravel</div>
                         <div className="tag tag-wordpress">Wordpress</div>
+                        <div className="tag tag-laravel">Laravel</div>
                     </div>
                 </div>
 
