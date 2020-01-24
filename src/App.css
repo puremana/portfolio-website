@@ -53,6 +53,7 @@ h2 {
   list-style-type: none;
   display: inline-block;
   width: 22vw;
+  max-width: 300px;
   height: 50px;
   line-height: 50px;
   vertical-align: middle;
