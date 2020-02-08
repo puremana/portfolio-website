@@ -84,9 +84,6 @@ class Projects extends Component {
                         <div className="tag tag-mysql">MySQL</div>
                     </div>
                     <div className="project-links">
-                        <a className="project-button" href="https://ollyandmon.co.nz" target="_blank" rel="noreferrer noopener">
-                            <span className="fas fa-link"></span> View Website
-                        </a> 
                         <a className="project-button" href="https://github.com/puremana/Wedding-Website" target="_blank" rel="noreferrer noopener">
                             <span className="fab fa-github"></span> View Github
                         </a>
@@ -204,7 +201,7 @@ class Projects extends Component {
                         <div className="tag tag-algolia-places">Algolia Places</div>
                     </div>
                     <div className="project-links">
-                        <a className="project-button" href="https://randomfoodpicker.com" target="_blank" rel="noreferrer noopener">
+                        <a className="project-button" href="https://food-roulette-3dd83.firebaseapp.com/" target="_blank" rel="noreferrer noopener">
                             <span className="fas fa-link"></span> View Website
                         </a>
                         <a className="project-button" href="https://github.com/puremana/food-roulette" target="_blank" rel="noreferrer noopener">
