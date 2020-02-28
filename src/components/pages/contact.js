@@ -41,12 +41,17 @@ class Contact extends Component {
         this.setState({messageValue: event.target.value});
     }
 
+    validateEmail(email) {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
+
     sendMessage(event) {
         if (this.state.nameValue === '') {
             this.setState({ nameClass: 'invalid' });
             return;
         }
-        if (this.state.emailValue === '') {
+        if (!this.validateEmail(this.state.emailValue)) {
             this.setState({ emailClass: 'invalid' });
             return;
         }
