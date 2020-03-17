@@ -16,7 +16,10 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "^1.1.5",
     "url-parse": "^1.4.7",
-    "webpack-dev-server": "^3.10.1"
+    "webpack-dev-server": "^3.10.1",
+    "lodash.template": ">=4.5.0",
+    "minimist": ">=1.2.2",
+    "mem": ">=4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
