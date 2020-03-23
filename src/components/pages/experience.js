@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
+import { Link } from 'react-router-dom';
 
 class Experience extends Component {
     componentWillReceiveProps() {
@@ -65,7 +66,7 @@ class Experience extends Component {
                 </div>
 
                 <div className="university-info">
-                    ~ Graduated Waikato University 2018 ~
+                    <Link to="/education">~ Graduated Waikato University 2018 ~</Link>
                 </div>
             </div>
         </div>

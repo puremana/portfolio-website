@@ -390,3 +390,26 @@ li:hover {
 .contact-container .contact-form .invalid {
   border: 1px solid red;
 }
+/* Education */
+.education-container {
+  padding-top: 110px;
+  width: 600px;
+  max-width: 80vw;
+  margin: 0 auto 20px auto;
+}
+.education-container h2, .education-explanation {
+  margin-bottom: 20px;
+}
+.education-container h4 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.education-container li {
+  margin-left: 40px;
+  list-style-type: square;
+}
+.education-container .university-info {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(109, 109, 109);
+}

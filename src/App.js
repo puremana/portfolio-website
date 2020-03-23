@@ -10,6 +10,7 @@ import Home from './components/pages/home';
 import Experience from './components/pages/experience';
 import Projects from './components/pages/projects';
 import Contact from './components/pages/contact';
+import Education from './components/pages/education';
 
 //includes
 import './App.css';
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/experience' component={Experience} />
             <Route exact path='/contact' component={Contact} />
+            <Route exact path='/education' component={Education} />
             <Route component={Home} />
           </Switch>
         </div>
