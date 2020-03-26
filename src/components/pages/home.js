@@ -59,7 +59,7 @@ class Home extends Component {
                                 Github
                             </div>
                         </a>
-                        <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-website-a71ab.appspot.com/o/Jeremy%20Shaw%20CV.pdf?alt=media&token=21d4e0aa-fae9-4597-bad5-600e0fff18f2" target="_blank" rel="noreferrer noopener">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-website-a71ab.appspot.com/o/Jeremy%20Shaw%20CV.pdf?alt=media&token=1dc1d24d-bda4-4e9e-a50c-be26454b727a" target="_blank" rel="noreferrer noopener">
                             <div className="button CV">
                                 <span className="icon is-small"><i className="fa fa-arrow-circle-down"></i></span>
                                 Download CV
