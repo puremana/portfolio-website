@@ -359,6 +359,14 @@ li:hover {
   border-color: #61DAFB;
   color: #61DAFB;
 }
+.tag-ruby-on-rails {
+  border-color: #CC0000;
+  color: #CC0000;
+}
+.tag-sqlite {
+  border-color: #044a64;
+  color: #044a64;
+}
 
 /* Contact */
 .contact-container {

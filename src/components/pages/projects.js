@@ -42,6 +42,34 @@ class Projects extends Component {
 
                 <div className="project">
                     <picture className="project-image">
+                        <source srcSet="img/webp/f2p-wiki.webp" type="image/webp" />
+                        <source srcSet="img/jpg/f2p-wiki.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/f2p-wiki.jpg" alt="F2P OSRS Wiki Screenshot" />
+                    </picture>
+                    <div className="project-text">
+                        <h3>F2P OSRS Wiki</h3>
+                        <p>I am the co-owner of the F2P OSRS Wiki.</p>
+                        <p>F2P.wiki is an open source Old School RuneScape hiscores for Free-to-play players. It is a fan-made passion project started in October 2017. It is constantly updated with the help of the F2P OSRS community.</p>
+                    </div>
+                    <div className="project-tags">
+                        <div className="tag tag-html">HTML5</div>
+                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-js">JS</div>
+                        <div className="tag tag-ruby-on-rails">Ruby on Rails</div>
+                        <div className="tag tag-sqlite">SQLite</div>
+                    </div>
+                    <div className="project-links">
+                        <a className="project-button" href="https://www.f2p.wiki" target="_blank" rel="noreferrer noopener">
+                            <span className="fa fa-link"></span> View Website
+                        </a>
+                        <a className="project-button" href="https://github.com/vmeow/f2pehp" target="_blank" rel="noreferrer noopener">
+                            <span className="fab fa-github"></span> View Github
+                        </a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <picture className="project-image">
                         <source srcSet="img/webp/iourpg-website.webp" type="image/webp" />
                         <source srcSet="img/jpg/iourpg-website.jpg" type="image/jpeg" /> 
                         <img src="img/jpg/iourpg-website.jpg" alt="IOURPG Website Screenshot"/>
