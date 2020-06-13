@@ -4,6 +4,15 @@
   padding: 0px;
   font-family: 'Open Sans', 'Trebuchet MS', Helvetica, sans-serif;
 }
+.App {
+  position: relative;
+  background: white;
+  min-height: 100vh;
+}
+.dark.App {
+  background: #0b1319;
+  color: rgb(143, 191, 253);
+}
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -24,6 +33,10 @@ a {
 }
 a:hover {
   color: rgb(56, 56, 56);
+}
+.dark a:hover {
+  color: rgb(0, 64, 148);
+
 }
 li a {
   display: block;
@@ -49,6 +62,9 @@ h2 {
   border-bottom: 1px solid rgba(128, 128, 128, 0.205);
   position: fixed;
 }
+.dark .nav {
+  background-color: #0b1319;
+}
 .nav li {
   list-style-type: none;
   display: inline-block;
@@ -62,8 +78,14 @@ h2 {
   text-align: center;
   border: 1px solid rgba(128, 128, 128, 0.205);
 }
+.dark .nav li {
+  border: 1px solid rgba(128, 128, 128, 0.205);
+}
 li:hover {
   color: black;
+}
+.dark li:hover {
+  color: white;
 }
 .icon {
   margin-right: 0.5vw;
@@ -74,12 +96,11 @@ li:hover {
 }
 /* Home Page */
 .home-page {
-  height: 100vh;
-  background: white;
+  overflow-y: auto;
 }
 .home-top-container {
   padding-top: 130px;
-  width: 100vw;
+  /* width: 100vw; */
   vertical-align: top;
   text-align: center;
 }
@@ -98,6 +119,9 @@ li:hover {
   border-radius: 300px;
   background-size: cover;
   vertical-align: top;
+}
+.dark .home-top-left-image img {
+  border: 1px solid #111e27;
 }
 .home-top-right {
   display: inline-block;
@@ -134,6 +158,11 @@ li:hover {
   color: white;
   display: inline-block;
   margin: 20px 10px 0px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .github {
   background: #444444;
@@ -158,10 +187,10 @@ li:hover {
 }
 /* Experience */
 .experience-container {
-  padding-top: 110px;
+  padding: 110px 0 20px 0;
   width: 600px;
   max-width: 80vw;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 0 auto;
 }
 .experience-container h2, .experience-explanation {
   margin-bottom: 20px;
@@ -197,6 +226,10 @@ li:hover {
   align-self: center;
   object-fit: contain;
 }
+.dark .experience-block-logo {
+  border-radius: 2px;
+  background: white;
+}
 .experience-block-info {
   align-self: center;
 }
@@ -212,7 +245,7 @@ li:hover {
 }
 /* Projects */
 .projects-container {
-  padding-top: 110px;
+  padding: 110px 0 20px 0;
   width: 600px;
   max-width: 80vw;
   margin: 0 auto 0 auto;
@@ -251,6 +284,10 @@ li:hover {
 .project-button:hover {
   background: #313131;
   color: white;
+}
+.dark .project-button:hover {
+  background-color: rgb(199, 199, 199);
+  color: black;
 }
 .project-tags {
   margin-bottom: 5px;
@@ -387,6 +424,13 @@ li:hover {
   border-radius: 2px;
   padding: 5px 10px;
 }
+.dark .contact-form input, .contact-form textarea {
+  background: #182936;
+  color: rgb(143, 191, 253);
+}
+.dark .contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
+  color: rgb(102, 137, 184);
+}
 #messageInput {
   resize: vertical;
 }
@@ -400,10 +444,10 @@ li:hover {
 }
 /* Education */
 .education-container {
-  padding-top: 110px;
+  padding: 110px 0 20px 0;
   width: 600px;
   max-width: 80vw;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 0 auto;
 }
 .education-container h2, .education-explanation {
   margin-bottom: 20px;
@@ -420,4 +464,16 @@ li:hover {
   text-align: center;
   font-weight: 600;
   color: rgb(109, 109, 109);
+}
+
+/* Dark Mode */
+.dark-mode {
+  position: fixed;
+  background: #444444;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.dark-mode:hover {
+  background: #313131;
 }
