@@ -424,11 +424,11 @@ li:hover {
   border-radius: 2px;
   padding: 5px 10px;
 }
-.dark .contact-form input, .contact-form textarea {
+.dark .contact-form input, .dark .contact-form textarea {
   background: #182936;
   color: rgb(143, 191, 253);
 }
-.dark .contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
+.dark .contact-form input::-webkit-input-placeholder, .dark .contact-form textarea::-webkit-input-placeholder {
   color: rgb(102, 137, 184);
 }
 #messageInput {
