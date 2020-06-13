@@ -20,14 +20,27 @@ import './Media.css';
 class App extends Component {
   constructor(props) {
     super(props);
+    
+    let darkMode = false;
+    // Load previous state
+    if (localStorage.getItem("darkMode") !== null) {
+      darkMode = localStorage.getItem("darkMode") === "true"
+    } else {
+      // Load preference
+      if (typeof window !== 'undefined') {
+        darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      }
+    }
+
     this.state = {
-      darkMode: true
+      darkMode: darkMode
     }
 
     this.toggleDarkMode.bind(this)
   }
 
   toggleDarkMode() {
+    localStorage.setItem('darkMode', !this.state.darkMode)
     this.setState({
       darkMode: !this.state.darkMode
     })
