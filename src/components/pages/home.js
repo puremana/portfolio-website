@@ -65,7 +65,7 @@ class Home extends Component {
                                 Download CV
                             </div>
                         </a>
-                        <a href="https://blog.jeremyshaw.co.nz">
+                        <a href={"https://blog.jeremyshaw.co.nz?dark=" + this.props.mode}>
                             <div className="button blog">
                                 <span className="icon is-small"><i className="fa fa-pencil-alt"></i></span>
                                 Blog

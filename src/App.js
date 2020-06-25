@@ -51,12 +51,12 @@ class App extends Component {
       <Router>
         <div className={['App', this.state.darkMode ? 'dark' : ''].join(" ")}>
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path='/' render={(props) => (<Home {...props} mode={this.state.darkMode} />)} />
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/experience' component={Experience} />
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/education' component={Education} />
-            <Route component={Home} />
+            <Route render={(props) => (<Home {...props} mode={this.state.darkMode} />)} />
           </Switch>
           <DarkMode toggleMode={() => this.toggleDarkMode()} mode={this.state.darkMode} />
         </div>
