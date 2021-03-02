@@ -22,7 +22,7 @@ class Experience extends Component {
                 
                 <div className="experience-block">
                     <a href="https://www.ninetyblack.com/" className="logo-link" target="_blank" rel="noopener noreferrer">
-                        <img src="img/png/ninetyblack-logo.png" className="experience-block-logo" alt="NinetyBlack Logo" />
+                        <img src="img/svg/ninetyblack-logo.svg" className="experience-block-logo" alt="NinetyBlack Logo" />
                     </a>
                     <div className="experience-block-info">
                         <h3>Full Stack Developer</h3>

@@ -52,6 +52,9 @@ h2 {
 .italic {
   font-style: italic;
 }
+p {
+  line-height: 30px;
+}
 /* Navigation */
 .nav {
   width: 100vw;
