@@ -26,10 +26,10 @@ class Experience extends Component {
                     </a>
                     <div className="experience-block-info">
                         <h3>Full Stack Developer</h3>
-                        <p className="italic">July 2019 - Present</p>
+                        <p className="italic">July 2019 - April 2021</p>
                     </div>
                     <p className="experience-block-text">
-                        At NinetyBlack I create custom Wordpress sites with unique requirements, maintain internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and develop mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
+                        At NinetyBlack I created custom Wordpress sites with unique requirements, maintained internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and developed mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
                     </p>
                     <div className="project-tags">
                         <div className="tag tag-html">HTML5</div>
