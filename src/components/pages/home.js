@@ -36,7 +36,7 @@ class Home extends Component {
                         </li>
                         <li>
                             <div className="icon is-small"><i className="fa fa-location-arrow"></i></div>
-                            <span>Taupo, New Zealand</span>
+                            <span>Rotorua, New Zealand</span>
                         </li>
                         <li>
                             <div className="icon is-small"><i className="fa fa-graduation-cap"></i></div>
@@ -47,8 +47,7 @@ class Home extends Component {
             </div>
             <div className="home-bottom">
                 <div className="home-bottom-text">
-                    <p>I'm Jeremy. A software developer intent on developing the <Link to="/projects">sweetest projects</Link> I can. 
-                    Currently working at <a href="https://www.ninetyblack.com/" target="_blank" rel="noopener noreferrer">NinetyBlack</a> as a Full Stack Developer.</p>
+                    <p>I'm Jeremy. A software developer intent on developing the <Link to="/projects">sweetest projects</Link>, and becoming the best developer I can be.</p>
                     <br />
                     <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.
                     If you are interested in getting in touch with me, feel free to <Link to="/contact">drop me a line</Link>.</p>
