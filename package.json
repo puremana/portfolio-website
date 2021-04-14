@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "emailjs-com": "^2.6.3",
+    "emailjs-com": "^2.6.4",
     "eslint": "^6.8.0",
     "extend": ">=3.0.2",
-    "handlebars": "^4.7.6",
-    "js-yaml": "^3.14.0",
-    "lodash": "^4.17.20",
+    "handlebars": "^4.7.7",
+    "js-yaml": "^3.14.1",
+    "lodash": "^4.17.21",
     "lodash.template": ">=4.5.0",
     "mem": "^6.1.1",
-    "merge": ">=1.2.1",
+    "merge": "^2.1.1",
     "minimist": ">=1.2.2",
     "querystringify": "^2.2.0",
     "react": "^16.14.0",
@@ -19,7 +19,7 @@
     "react-dom": "^16.14.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.4.4",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
