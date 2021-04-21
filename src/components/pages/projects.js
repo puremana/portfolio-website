@@ -54,6 +54,7 @@ class Projects extends Component {
                     <div className="project-tags">
                         <div className="tag tag-html">HTML5</div>
                         <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-js">JS</div>
                         <div className="tag tag-php">PHP</div>
                         <div className="tag tag-wordpress">Wordpress</div>
                     </div>
