@@ -42,6 +42,25 @@ class Projects extends Component {
 
                 <div className="project">
                     <picture className="project-image">
+                        <source srcSet="img/webp/mylistings-example-image.webp" type="image/webp" />
+                        <source srcSet="img/jpg/mylistings-example-image.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/mylistings-example-image.jpg" alt="MyListings Example Listing" />
+                    </picture>
+                    <div className="project-text">
+                        <h3>MyListing Property Listings Plugin</h3>
+                        <p>A Wordpress Plugin created for MyListing to automatically generate and update detailed web pages based on the real estate agents' and affiliated agents' current and sold listings.</p>
+                        <p>As part of this plugin I implemented multiple page and component designs to fit into the theme of the sites.</p>
+                    </div>
+                    <div className="project-tags">
+                        <div className="tag tag-html">HTML5</div>
+                        <div className="tag tag-css">CSS</div>
+                        <div className="tag tag-php">PHP</div>
+                        <div className="tag tag-wordpress">Wordpress</div>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <picture className="project-image">
                         <source srcSet="img/webp/f2p-wiki.webp" type="image/webp" />
                         <source srcSet="img/jpg/f2p-wiki.jpg" type="image/jpeg" /> 
                         <img src="img/jpg/f2p-wiki.jpg" alt="F2P OSRS Wiki Screenshot" />
