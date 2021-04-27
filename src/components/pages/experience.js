@@ -28,9 +28,6 @@ class Experience extends Component {
                         <h3>Full Stack Developer</h3>
                         <p className="italic">July 2019 - April 2021</p>
                     </div>
-                    <p className="experience-block-text">
-                        At NinetyBlack I created custom Wordpress sites with unique requirements, maintained internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and developed mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
-                    </p>
                     <div className="project-tags">
                         <div className="tag tag-html">HTML5</div>
                         <div className="tag tag-scss">SCSS</div>
@@ -41,6 +38,9 @@ class Experience extends Component {
                         <div className="tag tag-asgard">Asgard</div>
                         <div className="tag tag-react">React Native</div>
                     </div>
+                    <p className="experience-block-text">
+                        At NinetyBlack I created custom Wordpress sites with unique requirements, maintained internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and developed mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
+                    </p>
                 </div>
 
                 <div className="experience-block">
@@ -51,9 +51,6 @@ class Experience extends Component {
                         <h3>PHP Developer</h3>
                         <p className="italic">August 2018 - June 2019</p>
                     </div>
-                    <p className="experience-block-text">
-                        At LuminateOne I primarily helped develop custom large and medium scale web applications using <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">Laravel</a> and <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue</a>. This work ranged from collaborating with a team to solo development and testing.
-                    </p>
                     <div className="project-tags">
                         <div className="tag tag-html">HTML5</div>
                         <div className="tag tag-scss">SCSS</div>
@@ -63,6 +60,9 @@ class Experience extends Component {
                         <div className="tag tag-wordpress">Wordpress</div>
                         <div className="tag tag-laravel">Laravel</div>
                     </div>
+                    <p className="experience-block-text">
+                        At LuminateOne I primarily helped develop custom large and medium scale web applications using <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">Laravel</a> and <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue</a>. This work ranged from collaborating with a team to solo development and testing.
+                    </p>
                 </div>
 
                 <div className="university-info">
