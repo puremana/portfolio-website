@@ -39,7 +39,7 @@ class Experience extends Component {
                         <div className="tag tag-react">React Native</div>
                     </div>
                     <p className="experience-block-text">
-                        At NinetyBlack I created custom Wordpress sites with unique requirements, maintained internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and developed mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
+                        At NinetyBlack I worked as a Full Stack Developer to create custom Wordpress sites with unique requirements, maintained internal Laravel projects using <a href="https://asgardcms.com/">Asgard</a> and developed mobile applications with <a href="https://facebook.github.io/react-native/">React Native.</a>
                     </p>
                 </div>
 
