@@ -404,6 +404,10 @@ li:hover {
   border-color: #044a64;
   color: #044a64;
 }
+.tag-google-cloud-platform {
+  border-color: #ffca2c;
+  color: #ffca2c;
+}
 
 /* Contact */
 .contact-container {

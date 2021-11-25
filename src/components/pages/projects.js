@@ -268,6 +268,28 @@ class Projects extends Component {
                         </a> 
                     </div>
                 </div>
+
+                <div className="project">
+                    <picture className="project-image">
+                        <source srcSet="img/webp/vail-vr-discord-bot.webp" type="image/webp" />
+                        <source srcSet="img/jpg/vail-vr-discord-bot.jpg" type="image/jpeg" /> 
+                        <img src="img/jpg/vail-vr-discord-bot.jpg" alt="Vail VR Discord Bot Screenshot" loading="lazy"/>
+                    </picture>
+                    <div className="project-text">
+                        <h3>Vail VR Discord Bot</h3>
+                        <div className="project-tags">
+                            <div className="tag tag-nodejs">Node JS</div>
+                            <div className="tag tag-discordjs">Discord JS</div>
+                            <div className="tag tag-google-cloud-platform">Google Cloud Platform</div>
+                        </div>
+                        <p>The Vail VR Discord Bot was developed for the team at <a href="https://metadrop.com/" target="_blank" rel="noreferrer noopener">MetaDrop</a> to fairly distribute Vail VR Steam keys in preparation for their upcoming drop.</p>
+                    </div>
+                    <div className="project-links">
+                        <a className="project-button" href="https://discord.gg/XCEtjdyg9z" target="_blank" rel="noreferrer noopener">
+                            <span className="fab fa-discord"></span> View Discord
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );
