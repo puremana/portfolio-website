@@ -47,9 +47,9 @@ class Home extends Component {
             </div>
             <div className="home-bottom">
                 <div className="home-bottom-text">
-                    <p>I'm Jeremy. A software developer intent on developing the <Link to="/projects">sweetest projects</Link>, and becoming the best developer I can be.</p>
+                    <p>I'm Jeremy. A freelance developer working on new and exciting <Link to="/projects">projects</Link> for my clients, and becoming the best developer I can be.</p>
                     <br />
-                    <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.
+                    <p>When I'm not programming you will find me out mountain biking, exploring the great landscape New Zealand provides.
                     If you are interested in getting in touch with me, feel free to <Link to="/contact">drop me a line</Link>.</p>
                     <div className="home-bottom-buttons">
                         <a href="https://github.com/puremana" target="_blank" rel="noreferrer noopener">

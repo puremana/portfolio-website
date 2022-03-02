@@ -168,9 +168,6 @@ class Projects extends Component {
                         <p>IOU Helper is still actively updated and currently used by over 300 players.</p>
                     </div>
                     <div className="project-links">
-                        <a className="project-button" href="https://iouhelper.com/" target="_blank" rel="noreferrer noopener">
-                            <span className="fas fa-link"></span> View Website
-                        </a>
                         <a className="project-button" href="https://github.com/puremana/iou-helper" target="_blank" rel="noreferrer noopener">
                             <span className="fab fa-github"></span> View Github
                         </a>
@@ -201,9 +198,6 @@ class Projects extends Component {
                         <p>This program is currently used by over 50 players.</p>
                     </div>
                     <div className="project-links">
-                        <a className="project-button" href="https://iouhelper.com/" target="_blank" rel="noreferrer noopener">
-                            <span className="fas fa-link"></span> View Website
-                        </a>
                         <a className="project-button" href="https://github.com/puremana/iou-helper-2.0" target="_blank" rel="noreferrer noopener">
                             <span className="fab fa-github"></span> View Github
                         </a>
