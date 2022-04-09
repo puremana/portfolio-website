@@ -12,7 +12,7 @@
     "lodash.template": ">=4.5.0",
     "mem": "^6.1.1",
     "merge": "^2.1.1",
-    "minimist": ">=1.2.2",
+    "minimist": ">=1.2.6",
     "querystringify": "^2.2.0",
     "react": "^16.14.0",
     "react-dev-utils": "^10.2.1",
