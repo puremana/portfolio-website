@@ -47,7 +47,7 @@ class Home extends Component {
             </div>
             <div className="home-bottom">
                 <div className="home-bottom-text">
-                    <p>I'm Jeremy. A freelance developer working on new and exciting <Link to="/projects">projects</Link> for my clients, and becoming the best developer I can be.</p>
+                    <p>I'm Jeremy. Trying to become the best web developer I can be. Currently working as a developer for <a href="https://www.publictrust.co.nz/" target="_blank" rel="noreferrer noopener">Public Trust</a>.</p>
                     <br />
                     <p>When I'm not programming you will find me out mountain biking, exploring the great landscape New Zealand provides.
                     If you are interested in getting in touch with me, feel free to <Link to="/contact">drop me a line</Link>.</p>

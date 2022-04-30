@@ -209,7 +209,7 @@ li:hover {
 }
 .experience-block {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 100px auto;
   grid-column-gap: 20px;
   padding: 10px 0;
@@ -220,10 +220,11 @@ li:hover {
   display: grid;
 }
 .experience-block-logo {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 250px;
+  max-height: 70px;
   align-self: center;
   object-fit: contain;
+  width: 100%;
 }
 .dark .experience-block-logo {
   border-radius: 2px;
