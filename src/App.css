@@ -221,7 +221,7 @@ li:hover {
 }
 .experience-block-logo {
   max-width: 250px;
-  max-height: 70px;
+  height: 70px;
   align-self: center;
   object-fit: contain;
   width: 100%;
