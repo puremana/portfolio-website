@@ -42,6 +42,7 @@ class Experience extends Component {
                 </div>
 
                 <div className="experience-block">
+                    <img src="img/svg/full-stack-developer-icon.svg" className="experience-block-logo" alt="Freelancing logo" />
                     <div className="experience-block-info">
                         <h3>Freelance Developer</h3>
                         <p className="italic">April 2021 - April 2022</p>

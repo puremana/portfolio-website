@@ -225,6 +225,7 @@ li:hover {
   align-self: center;
   object-fit: contain;
   width: 100%;
+  padding: 5px;
 }
 .dark .experience-block-logo {
   border-radius: 2px;
