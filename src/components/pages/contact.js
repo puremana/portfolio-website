@@ -60,14 +60,17 @@ class Contact extends Component {
             return;
         }
         
-        emailjs.init("user_zw1NRenhx6WKqRR1JvNDu");
-        emailjs.send("gmail","jeremy_shaw_portfolio",{name: this.state.nameValue, email: this.state.emailValue, message: this.state.messageValue});
-        alert("Message sent.");
-
-        //reset form
-        this.setState({nameValue: ''});
-        this.setState({emailValue: ''});
-        this.setState({messageValue: ''});
+        try {
+            emailjs.init("user_zw1NRenhx6WKqRR1JvNDu");
+            emailjs.send("gmail","jeremy_shaw_portfolio",{name: this.state.nameValue, email: this.state.emailValue, message: this.state.messageValue});
+            alert("Message sent.");
+            // Reset form
+            this.setState({nameValue: ''});
+            this.setState({emailValue: ''});
+            this.setState({messageValue: ''});
+        } catch (error) {
+            alert("Error sending message. Please contact me through puremana@gmail.com");
+        }
     }  
 
   render() {
