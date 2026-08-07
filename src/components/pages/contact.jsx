@@ -1,22 +1,26 @@
 import React, { Component } from 'react';
-import emailjs from '@emailjs/browser';
 
 //components
 import NavBar from '../nav-bar/nav-bar';
 
-const EMAILJS_PUBLIC_KEY = "user_zw1NRenhx6WKqRR1JvNDu";
-const EMAILJS_SERVICE_ID = "gmail";
-const EMAILJS_TEMPLATE_ID = "jeremy_shaw_portfolio";
+const CONTACT_WORKER_URL = "https://portfolio-contact.puremana.workers.dev";
+
+// Assembled at runtime so the address never appears as a literal in the bundle.
+function contactAddress() {
+    return ['pure' + 'mana', ['gmail', 'com'].join('.')].join('@');
+}
 
 class Contact extends Component {
     constructor(props) {
         super(props);
-        this.state = {nameValue: '', emailValue: '', messageValue: '',
-                        nameClass: '', emailClass: '', messageClass: ''};
-    
+        this.state = {nameValue: '', emailValue: '', messageValue: '', websiteValue: '',
+                        nameClass: '', emailClass: '', messageClass: '',
+                        status: 'idle'};
+
         this.handleName = this.handleName.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
         this.handleMessage = this.handleMessage.bind(this);
+        this.handleWebsite = this.handleWebsite.bind(this);
 
         this.sendMessage = this.sendMessage.bind(this);
     }
@@ -45,12 +49,19 @@ class Contact extends Component {
         this.setState({messageValue: event.target.value});
     }
 
+    handleWebsite(event) {
+        this.setState({websiteValue: event.target.value});
+    }
+
     validateEmail(email) {
         var re = /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
     }
 
-    sendMessage(event) {
+    async sendMessage(event) {
+        if (this.state.status === 'sending') {
+            return;
+        }
         if (this.state.nameValue === '') {
             this.setState({ nameClass: 'invalid' });
             return;
@@ -63,30 +74,31 @@ class Contact extends Component {
             this.setState({ messageClass: 'invalid' });
             return;
         }
-        
-        emailjs.send(
-            EMAILJS_SERVICE_ID,
-            EMAILJS_TEMPLATE_ID,
-            {
-                name: this.state.nameValue,
-                email: this.state.emailValue,
-                message: this.state.messageValue
-            },
-            { publicKey: EMAILJS_PUBLIC_KEY }
-        ).then(
-            () => {
-                alert("Message sent.");
-                // Reset form
-                this.setState({nameValue: '', emailValue: '', messageValue: ''});
-            },
-            (error) => {
-                console.error("EmailJS send failed:", error);
-                alert("Error sending message. Please contact me through puremana@gmail.com");
+
+        this.setState({ status: 'sending' });
+        try {
+            const response = await fetch(CONTACT_WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    name: this.state.nameValue,
+                    email: this.state.emailValue,
+                    message: this.state.messageValue,
+                    website: this.state.websiteValue
+                })
+            });
+            if (!response.ok) {
+                throw new Error("Worker responded with " + response.status);
             }
-        );
+            this.setState({status: 'sent', nameValue: '', emailValue: '', messageValue: ''});
+        } catch (error) {
+            console.error("Contact worker send failed:", error);
+            this.setState({ status: 'error' });
+        }
     }
 
   render() {
+    const address = this.state.status === 'error' ? contactAddress() : null;
     return (
         <div className="contact-page">
             <NavBar page="contact"/>
@@ -99,10 +111,20 @@ class Contact extends Component {
                     <input type="email" name="emailInput" className={this.state.emailClass} id="emailInput" placeholder="Enter your email address" value={this.state.emailValue} onChange={this.handleEmail} />
                     <label htmlFor="messageInput">Message</label>
                     <textarea name="messageInput" className={this.state.messageClass} id="messageInput" rows="4" value={this.state.messageValue} onChange={this.handleMessage}></textarea>
+                    <div className="honeypot-field" aria-hidden="true">
+                        <label htmlFor="websiteInput">Website</label>
+                        <input type="text" name="websiteInput" id="websiteInput" tabIndex="-1" autoComplete="off" value={this.state.websiteValue} onChange={this.handleWebsite} />
+                    </div>
                     <div className="button send" onClick={this.sendMessage}>
                         <span className="icon is-small"><i className="fa fa-envelope"></i></span>
-                        Send Message
+                        {this.state.status === 'sending' ? 'Sending...' : 'Send Message'}
                     </div>
+                    {this.state.status === 'sent' &&
+                        <p className="form-status">Message sent. Thanks for reaching out!</p>
+                    }
+                    {this.state.status === 'error' &&
+                        <p className="form-status form-error">Something went wrong sending your message. Please email me directly at <a href={'mailto:' + address}>{address}</a>.</p>
+                    }
                 </div>
             </div>
         </div>

@@ -451,6 +451,17 @@ li:hover {
 .contact-container .contact-form .invalid {
   border: 1px solid red;
 }
+.contact-form .honeypot-field {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+}
+.form-status {
+  margin: 0 0 10px;
+}
+.form-error {
+  color: rgb(214, 69, 69);
+}
 /* Education */
 .education-container {
   padding: 110px 0 20px 0;

@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-contact",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-01",
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "remote": true,
+      "allowed_sender_addresses": ["portfolio@idlefellowship.com"]
+    }
+  ]
+}

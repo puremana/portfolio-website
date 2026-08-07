@@ -9,6 +9,9 @@
 # production
 /build
 
+# wrangler cache
+.wrangler/
+
 # misc
 .DS_Store
 .env.local

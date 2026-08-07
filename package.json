@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router": "^8.3.0"
