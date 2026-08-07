@@ -3,29 +3,33 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "emailjs-com": "^2.6.4",
-    "eslint": "^6.8.0",
-    "extend": ">=3.0.2",
-    "handlebars": "^4.7.7",
-    "js-yaml": "^3.14.1",
-    "lodash": "^4.17.21",
-    "lodash.template": ">=4.5.0",
-    "mem": "^6.1.1",
-    "merge": "^2.1.1",
-    "minimist": "^1.2.7",
-    "querystringify": "^2.2.0",
-    "react": "^16.14.0",
-    "react-dev-utils": "^10.2.1",
-    "react-dom": "^16.14.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.4.4",
-    "url-parse": "^1.5.10"
+    "@emailjs/browser": "^4.4.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^8.3.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "postcss": "^8.5.26",
+    "serialize-javascript": "^7.0.7",
+    "underscore": "^1.13.8",
+    "@tootallnate/once": "^2.0.1",
+    "uuid": "^11.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && firebase deploy",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [

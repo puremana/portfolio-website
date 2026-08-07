@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
 
 class Projects extends Component {
-    componentWillReceiveProps() {
+    componentDidUpdate() {
         document.title = "Projects - Jeremy Shaw Software Developer Portfolio";
     }
 

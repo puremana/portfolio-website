@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import NavBar from '../nav-bar/nav-bar';
 
 class Education extends Component {
-    componentWillReceiveProps() {
+    componentDidUpdate() {
         document.title = "Education - Jeremy Shaw Software Developer Portfolio";
     }
 

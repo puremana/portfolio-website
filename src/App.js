@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch
-} from 'react-router-dom';
+  Routes
+} from 'react-router';
 
 //components
 import Home from './components/pages/home';
@@ -50,14 +50,14 @@ class App extends Component {
     return (
       <Router>
         <div className={['App', this.state.darkMode ? 'dark' : ''].join(" ")}>
-          <Switch>
-            <Route exact path='/' render={(props) => (<Home {...props} mode={this.state.darkMode} />)} />
-            <Route exact path='/projects' component={Projects} />
-            <Route exact path='/experience' component={Experience} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/education' component={Education} />
-            <Route render={(props) => (<Home {...props} mode={this.state.darkMode} />)} />
-          </Switch>
+          <Routes>
+            <Route path='/' element={<Home mode={this.state.darkMode} />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/experience' element={<Experience />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/education' element={<Education />} />
+            <Route path='*' element={<Home mode={this.state.darkMode} />} />
+          </Routes>
           <DarkMode toggleMode={() => this.toggleDarkMode()} mode={this.state.darkMode} />
         </div>
       </Router>

@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import * as emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
-//components  
+//components
 import NavBar from '../nav-bar/nav-bar';
+
+const EMAILJS_PUBLIC_KEY = "user_zw1NRenhx6WKqRR1JvNDu";
+const EMAILJS_SERVICE_ID = "gmail";
+const EMAILJS_TEMPLATE_ID = "jeremy_shaw_portfolio";
 
 class Contact extends Component {
     constructor(props) {
@@ -17,7 +21,7 @@ class Contact extends Component {
         this.sendMessage = this.sendMessage.bind(this);
     }
 
-    componentWillReceiveProps() {
+    componentDidUpdate() {
         document.title = "Contact - Jeremy Shaw Software Developer Portfolio";
     }
 
@@ -60,18 +64,27 @@ class Contact extends Component {
             return;
         }
         
-        try {
-            emailjs.init("user_zw1NRenhx6WKqRR1JvNDu");
-            emailjs.send("gmail","jeremy_shaw_portfolio",{name: this.state.nameValue, email: this.state.emailValue, message: this.state.messageValue});
-            alert("Message sent.");
-            // Reset form
-            this.setState({nameValue: ''});
-            this.setState({emailValue: ''});
-            this.setState({messageValue: ''});
-        } catch (error) {
-            alert("Error sending message. Please contact me through puremana@gmail.com");
-        }
-    }  
+        emailjs.send(
+            EMAILJS_SERVICE_ID,
+            EMAILJS_TEMPLATE_ID,
+            {
+                name: this.state.nameValue,
+                email: this.state.emailValue,
+                message: this.state.messageValue
+            },
+            { publicKey: EMAILJS_PUBLIC_KEY }
+        ).then(
+            () => {
+                alert("Message sent.");
+                // Reset form
+                this.setState({nameValue: '', emailValue: '', messageValue: ''});
+            },
+            (error) => {
+                console.error("EmailJS send failed:", error);
+                alert("Error sending message. Please contact me through puremana@gmail.com");
+            }
+        );
+    }
 
   render() {
     return (

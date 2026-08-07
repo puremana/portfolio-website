@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //components  
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 class NavBar extends Component {
     constructor(props) {
@@ -26,8 +26,12 @@ class NavBar extends Component {
         }
     }
 
-    componentWillReceiveProps() {
-        this.updateActive(this.props.page);
+    componentDidUpdate(prevProps) {
+        // Guard is required: updateActive calls setState, so an unconditional
+        // call here would re-trigger componentDidUpdate forever.
+        if (prevProps.page !== this.props.page) {
+            this.updateActive(this.props.page);
+        }
     }
 
     componentDidMount() {
